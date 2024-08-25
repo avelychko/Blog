@@ -1,0 +1,166 @@
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+
+.card {
+    width: 350px;
+    border: solid 1px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px 0px 0px 20px;
+    text-decoration: none;
+    border-color: #323232;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Courier New', monospace;
+    margin: 20px;
+}
+
+h2 {
+    color: #323232;
+    font-family: 'Open Sans', sans-serif;
+    margin: 5px;
+}
+
+h3 {
+    color: #464646;
+    font-family: 'Open Sans', sans-serif;
+    margin: 5px;
+    font-size: 15px;
+    padding: 0px 0px 15px 0px;
+}
+
+h4 {
+    color: black;
+    margin: 5px;
+    padding: 0px 10px 20px 5px;
+}
+
+.removelink {
+    text-decoration: none;
+}
+
+.link {
+    color: #323232;
+    text-decoration: none;
+    padding: 10px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+    .link:hover {
+        color: #464646;
+    }
+
+.createbutton {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    padding: 1em 2em;
+    border: 0;
+    border-radius: 30px;
+    border: solid 1px;
+    border-color: #323232;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background-color: #DDD0C8;
+    color: #323232;
+    font-weight: bold;
+}
+
+    .createbutton:hover {
+        background-color: #bfb3ac;
+    }
+
+.deletebutton {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    padding: 1em 2em;
+    border: 0;
+    border-radius: 30px;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background-color: #DDD0C8;
+    color: #323232;
+    font-weight: bold;
+}
+
+    .deletebutton:hover {
+        background-color: #bfb3ac;
+    }
+
+.addbutton {
+    position: relative;
+    display: inline-block;
+    margin: 1em;
+    padding: 1em 2em;
+    border: 0;
+    border-radius: 30px;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background-color: #323232;
+    color: white;
+}
+
+    .addbutton:hover {
+        background-color: #464646;
+    }
+
+body {
+    background-color: #DDD0C8;
+    margin: 0px;
+}
+
+.form {
+    width: 400px;
+    aspect-ratio: 4;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    height: 20px;
+    border: solid 1px;
+    border-color: #323232;
+}
+
+.post {
+    border: solid 1px;
+    width: 400px;
+    height: 70px;
+    border-color: #323232;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.date {
+    color: #636363;
+}
+
+.deletediv {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.browsecontainer {
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+    width: 350px;
+    margin-top: 15px;
+}
